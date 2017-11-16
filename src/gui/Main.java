@@ -1,5 +1,8 @@
+package gui;
 
 import java.net.URL;
+
+import gui.Controller;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.*;
@@ -20,7 +23,7 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(url);
 
         //---------------------------------------------
-        // Controller ist für Funktionlität zuständig
+        // gui.Controller ist für Funktionlität zuständig
         //---------------------------------------------
         loader.setController(new Controller());
 
